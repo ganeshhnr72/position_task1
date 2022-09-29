@@ -1,0 +1,113 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: aliceblue;
+}
+.main_section_css {
+  display: flex;
+  height: 300px;
+  background-color: #ffffff;
+}
+.image_css {
+  display: flex;
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+.image_css img {
+  width: 350px;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+.calender_css {
+  height: 60px;
+  width: 55px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  position: relative;
+  margin: auto;
+  bottom: 0%;
+  margin-left: 42px;
+  margin-bottom: 48px;
+}
+.calender_css h1 {
+  font-size: 30px;
+  position: absolute;
+  /* text-align: center; */
+  margin: 5px auto auto 12px;
+  /* top: 0px; */
+
+  color: rgb(43, 40, 40);
+}
+.calender_css p {
+  font-size: 10px;
+  position: absolute;
+  /* text-align: center; */
+  margin-top: 40px;
+  margin-left: 20px;
+  font-weight: 800;
+  color: darkgrey;
+
+  /* margin: 30px auto 0px auto; */
+}
+
+/* right container starts here */
+.text_css {
+  display: flex;
+  width: 70%;
+  background-color: transparent;
+  position: relative;
+}
+.text_css .div-1 {
+  display: flex;
+  position: absolute;
+  height: 50px;
+  background-color: transparent;
+  margin: 40px 0px 0px 20px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.text_css .div-1 i {
+  font-size: 18px;
+  color: #81bd2e;
+  margin-right: 10px;
+}
+.text_css .div-1 span {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 400;
+}
+.text_css .div-2 {
+  position: absolute;
+  height: 50px;
+  margin: 65px 0px 0px 20px;
+}
+.text_css .div-2 h1 {
+  font-size: 40px;
+}
+.text_css .div-3 {
+  position: absolute;
+  height: 50px;
+  margin: 140px 0px 0px 20px;
+}
+.text_css .div-3 p {
+  font-size: 20px;
+  color: #727271;
+}
+.text_css .div-4 {
+  position: absolute;
+  height: 50px;
+  margin: 210px 0px 0px 20px;
+}
+.text_css .div-4 button {
+  height: 60px;
+  width: 160px;
+  font-size: 15px;
+  font-weight: 800;
+  color: aliceblue;
+  background-color: #82bc2e;
+  border: none;
+}
